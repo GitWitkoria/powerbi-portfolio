@@ -1,4 +1,4 @@
-**Raport porównania krajów**
+<h2 style="text-align: center;">Raport porównania sprzedaży w różnych krajach</h2>
 
 **Co zawiera raport?**
 
@@ -85,4 +85,6 @@ Dodatkowe efekty: **mapa interaktywna** + **dynamiczne filtrowanie** po kraju.
 1. ![Wersja pierwsza](images/Raport1.png)
 2. ![Wersja druga](images/Raport2.png)
 3. ![Wersja trzecia](images/raport3.png)
+4. ![Wersja trzecia](images/Raport4.png)
+   
    
