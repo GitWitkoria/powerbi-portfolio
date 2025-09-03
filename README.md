@@ -84,5 +84,5 @@ Dodatkowe efekty: **mapa interaktywna** + **dynamiczne filtrowanie** po kraju.
 
 1. ![Wersja pierwsza](images/Raport1.png)
 2. ![Wersja druga](images/Raport2.png)
-3. ![Wersja druga](images/Raport3.png)
+3. ![Wersja trzecia](images/raport3.png)
    
