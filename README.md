@@ -2,7 +2,7 @@
 
 Cześć! 🙂
 
-Jestem w trakcie budowania mojego portfolio, w którym dzielę się swoimi projektami w **SSRS i Power BI**.  
+Przedstawiam moje portfolio, w którym dzielę się swoimi projektami w **SSRS i Power BI**.  
 Chcę pokazać nie tylko gotowe raporty, ale także proces ich powstawania.
 
 ## 🔎 Co znajdziesz w repozytorium?
