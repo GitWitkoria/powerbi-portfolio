@@ -1,11 +1,11 @@
-<h1 style="text-align: center;">Bezrobocie w Polsce</h1>
+<h2 style="text-align: center;">Bezrobocie w Polsce</h2>
 
 
-<h2 style="text-align: center;">Co zawiera raport?</h2>
+<h3 style="text-align: center;">Co zawiera raport?</h3>
 Raport zawiera 5 zakładek znajdujących się w menu po lewej stronie raportu: „Makrotrend Polski”,
 „Profil bezrobotnych”, „Mapa szans pracy”, „Scenariusze gospodarcze”, „Prognoza i AI Insights”.
 
-<h2 style="text-align: center;">Jak powstał raport? - Pobieranie danych z GUS za pomocą API</h2>
+<h3 style="text-align: center;">Jak powstał raport? - Pobieranie danych z GUS za pomocą API</h3>
 W raporcie celowo i świadomie nie zastosowałam schematu „gwiazdy” ani centralnej tabeli faktów, ponieważ dane są zbyt zagregowane, by można je było sensownie połączyć. Użyłam modelu rozproszonego, gdzie nie ma relacji między tabelami.  Każda tabela stanowi osobne źródło danych i odpowiada jednej stronie raportu, co zapewnia przejrzystość oraz czytelność wizualizacji. 
 
 Zweryfikowałam plan/szkic mojego raportu i rozważyłam, które dane z podkategorii pobrać.
@@ -24,7 +24,7 @@ Dodatkowo utworzyłam dwie puste tabele:
 •	#Miary - do przechowywania miar obliczeniowych
 •	#MiaryTytuly - do przechowywania dynamicznych tytułów wykresów
 
-<h2 style="text-align: center;">Odbiorca raportu</h2>
+<h3 style="text-align: center;">Odbiorca raportu</h3>
 Raport został przygotowany z myślą o osobach analizujących dane rynku pracy, w szczególności rekruterach, analitykach danych oraz osobach decyzyjnych zainteresowanych ogólnymi trendami bezrobocia w Polsce.
 Dashboard umożliwia zarówno szybki przegląd kluczowych wskaźników makroekonomicznych (poziom i zmiany bezrobocia), jak i eksplorację danych dla wybranych grup demograficznych na poziomie województw.
 
@@ -122,7 +122,7 @@ Na stronie znajdują się:
 
 Strony zawierają wysuwane filtry, które w każdej chwili można schować, jeśli użytkownik potrzebuje zaprezentować dane tylko z jakiegoś zakresu. Każda strona ma również interaktywne przyciski przenoszące na inne strony oraz do mojego portfolio na GitHub lub profilu na Linkedin.
 
-<h2 style="text-align: center;">Przykładowe wnioski z raportu</h2>
+<h3 style="text-align: center;">Przykładowe wnioski z raportu</h3>
 •	Trend bezrobocia jest malejący z każdym kolejnym rokiem;
 •	Największy % bezrobocia w 2024 roku był w województwie podkarpackim oraz warmińsko-mazurskim;
 •	Bezrobocie na przestrzeni ostatnich dwóch lat utrzymuje się na podobnym poziomie - 5,10%;
