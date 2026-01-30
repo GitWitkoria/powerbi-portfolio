@@ -147,5 +147,5 @@ Strony zawierają wysuwane filtry, które w każdej chwili można schować, jeś
    ![Strona czwartaw raportu](images/ScenariuszeGospodarcze.png)
 
 5. Strona piąta raportu z otwartymi filtrami
-   ![Strona piata raportu](images/PrognozaAI.png)
+ 
 
