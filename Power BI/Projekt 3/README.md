@@ -28,7 +28,7 @@ Dodatkowo utworzyłam dwie puste tabele:
 Raport został przygotowany z myślą o osobach analizujących dane rynku pracy, w szczególności rekruterach, analitykach danych oraz osobach decyzyjnych zainteresowanych ogólnymi trendami bezrobocia w Polsce.
 Dashboard umożliwia zarówno szybki przegląd kluczowych wskaźników makroekonomicznych (poziom i zmiany bezrobocia), jak i eksplorację danych dla wybranych grup demograficznych na poziomie województw.
 
-<h2 style="text-align: center;">Przygotowanie stron raportu</h2>
+<h3 style="text-align: center;">Przygotowanie stron raportu</h3>
 Szablony dla poszczególnych stron raportu powstały w Figmie.
 1.	Pierwsza strona raportu „Makrotrend Polski”. Pokazuje ogólne bezrobocie w Polsce na ostatni dostępny w źródle danych rok. Korzysta z tabeli „Stopa bezrobocia”.
 Na stronie znajdują się:
