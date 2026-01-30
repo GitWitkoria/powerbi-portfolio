@@ -29,17 +29,21 @@ Raport został przygotowany z myślą o osobach analizujących dane rynku pracy,
 Dashboard umożliwia zarówno szybki przegląd kluczowych wskaźników makroekonomicznych (poziom i zmiany bezrobocia), jak i eksplorację danych dla wybranych grup demograficznych na poziomie województw.
 
 <h3 style="text-align: center;">Przygotowanie stron raportu</h3>
-Szablony dla poszczególnych stron raportu powstały w Figmie.<br>
-1.	Pierwsza strona raportu „Makrotrend Polski”. Pokazuje ogólne bezrobocie w Polsce na ostatni dostępny w źródle danych rok. Korzysta z tabeli „Stopa bezrobocia”.<br>
+Szablony dla poszczególnych stron raportu powstały w Figmie.<br><br>
+
+1.	Pierwsza strona raportu „Makrotrend Polski”.<br>
+Pokazuje ogólne bezrobocie w Polsce na ostatni dostępny w źródle danych rok. Korzysta z tabeli „Stopa bezrobocia”.<br><br>
 Na stronie znajdują się:<br>
 •	3x KPI („Aktualna stopa bezrobocia” - w GUS jest to zwykle obecny rok-1, czyli na dzień tworzenia raportu w 2025 roku ostatnią datą był rok 2024; „Zeszłoroczna stopa bezrobocia”; „Porównanie rok do roku za ostatnie 2 lata”);<br>
 •	wykres liniowy - trend bezrobocia ogółem w Polsce;<br>
 •	wykres kolumnowy - bezrobocie rok do roku;<br>
 •	mapa i macierz - aktualne bezrobocie wg województw;<br>
 Mapa zasilana jest plikiem topoJSON, która wyznacza granice województw w Polsce.<br>
-Niektóre z tytułów zasilane są dynamicznym tekstem z DAX, by wskazać , którego roku dotyczy wizualizacja.<br>
+Niektóre z tytułów zasilane są dynamicznym tekstem z DAX, by wskazać , którego roku dotyczy wizualizacja.<br><br>
+
 2.	Druga strona raportu „Profil bezrobotnych”<br>
-Odpowiada na pytanie „Kim jesteś na tle innych?”.  Korzysta z tabeli „Bezrobotni wg płci i wieku”. Dzięki tej stronie możemy zweryfikować jak kształtuje się bezrobocie dla grupy, w której się znajdujemy.
+Odpowiada na pytanie „Kim jesteś na tle innych?”.  Korzysta z tabeli „Bezrobotni wg płci i wieku”. Dzięki tej stronie możemy zweryfikować jak kształtuje się bezrobocie dla grupy, w której się znajdujemy.<br><br>
+
 Na stronie znajdują się takie wizualizacje jak:<br>
 •	3x KPI: „Bezrobotni ogółem” na ostatni dostępny w źródle danych rok.; „Liczba bezrobotnych w Twojej grupie” - czyli na podstawie wskazanych parametrów, takich jak: wiek, płeć, województwo raport oblicza ile jest osób w Twojej grupie; „Twój udział w populacji bezrobotnych” - na podstawie dwóch poprzednich KPI oblicza jaki procent stanowi grupa, w której jesteś na tle wszystkich bezrobotnych;<br>
 •	Wykres liniowy  „Trend bezrobocia z prognozą na 10 lat Twojej grupy” - jedyna wizualizacja na tej stronie, która nie odnosi się do roku wybranego w filtrach, ponieważ jak nazwa wskazuje jest to trend na przestrzeni wszystkich dostępnych w źródle danych lat;<br>
@@ -48,7 +52,7 @@ Na stronie znajdują się takie wizualizacje jak:<br>
 •	Mapa - zasilana jak poprzednio.<br><br>
 
 3.	Trzecia strona raportu „Mapa szans pracy”<br>
-Odpowiada na pytanie „Jakie są szanse na rynku pracy według poziomu wykształcenia?”. Korzysta z tabeli „Bezrobocie wg wykształcenia i płci”. Dopełnia poprzednie strony raportu poprzez informację w jakim województwie i z jakim wykształceniem są najmniejsze szanse na pozostanie bezrobotnym.<br>
+Odpowiada na pytanie „Jakie są szanse na rynku pracy według poziomu wykształcenia?”. Korzysta z tabeli „Bezrobocie wg wykształcenia i płci”. Dopełnia poprzednie strony raportu poprzez informację w jakim województwie i z jakim wykształceniem są najmniejsze szanse na pozostanie bezrobotnym.<br><br>
 
 Na stronie znajdują się:<br>
 •	Wyliczana DAXem informacja, z jakim wykształceniem jest najniższe ryzyko dla wybranych filtrów;<br>
@@ -108,10 +112,11 @@ Na stronie znajdują się:<br>
 •	parametr what-IF; informacja jak z niego korzystać;<br>
 •	2xKPI: „Bezrobotni ogółem”; „Delta scenariusza bazowego vs scenariusz z wyliczeniem what-if”;<br>
 •	100% Skumulowany wykres kolumnowy „Struktura czasu bezrobocia”;<br>
-•	Wykres kolumnowy „Liczba bezrobotnych: wartość bazowa vs scenariusz” <br>
+•	Wykres kolumnowy „Liczba bezrobotnych: wartość bazowa vs scenariusz” <br><br>
 
-1.  Piąta strona raportu „Prognoza i AI Insights”<br>
-Odpowiada na kilka pytań: „Jak zmieni się liczba bezrobotnych w wybranym typie i gdzie wystąpiły nietypowe zmiany w przeszłości?”. Korzysta z tabeli „Bezrobotni wg płci i typu”. Korzysta z wbudowanych wizualizacji wspieranych przez AI.<br>
+5.  Piąta strona raportu „Prognoza i AI Insights”<br>
+Odpowiada na kilka pytań: „Jak zmieni się liczba bezrobotnych w wybranym typie i gdzie wystąpiły nietypowe zmiany w przeszłości?”. Korzysta z tabeli „Bezrobotni wg płci i typu”. Korzysta z wbudowanych wizualizacji wspieranych przez AI.<br><br>
+
 Na stronie znajdują się:<br>
 •	Wykres liniowy z prognozą „Prognoza liczby bezrobotnych wg typu”;<br>
 •	Wykres liniowy z zaznaczeniem anomalii „Nietypowe zmiany w liczbie bezrobotnych”;<br>
